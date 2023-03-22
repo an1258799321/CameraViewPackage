@@ -1,0 +1,9 @@
+{
+  "name": "com.unity.cameraviewplugin",
+  "displayName": "CameraViewPlugin",
+  "version": "0.0.2",
+  "category": "net",
+  "unity": "2022.1",
+  "description": "\u8d44\u6e90\u7ba1\u7406\u5668\u63d2\u4ef6",
+  "type": "tool"
+}

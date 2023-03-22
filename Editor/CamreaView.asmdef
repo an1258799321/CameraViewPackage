@@ -1,0 +1,16 @@
+{
+    "name": "CamreaView",
+    "rootNamespace": "",
+    "references": [
+        "GUID:be849ababe3e86c4e9e33a6185ca0584"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,16 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <ui:Label text="相机点为视角添加" name="Title" style="width: auto; height: auto; font-size: 28px; -unity-text-align: upper-center; color: rgb(255, 0, 0);" />
+    <ui:VisualElement name="CreatData">
+        <uie:ObjectField label="当前存储位置信息的数据" name="NowData" allow-scene-objects="true" style="font-size: 28px; display: flex; overflow: hidden; opacity: 1; visibility: visible;" />
+    </ui:VisualElement>
+    <ui:VisualElement name="DataShow" style="height: 666px;">
+        <ui:VisualElement name="CameraDataView" style="height: 669px;">
+            <ui:Button text="删除当前相机视角信息" display-tooltip-when-elided="true" name="RemoveCameraViewMessageData" style="font-size: 19px; width: 214px; height: 41px;" />
+            <ui:Button text="删除当前相机点位数据" display-tooltip-when-elided="true" name="RemoveCameraViewData" style="font-size: 19px; width: 214px; height: 41px; top: -41px; left: 865px;" />
+            <ui:ScrollView name="CameraViewDataMessage" style="font-size: 28px; height: 500px;" />
+            <ui:Button text="添加相机视角信息" display-tooltip-when-elided="true" name="AddCameraViewMessageData" style="font-size: 19px; width: 175px; height: 41px;" />
+            <ui:Button text="添加相机点位数据" display-tooltip-when-elided="true" name="AddCameraViewData" style="font-size: 19px; width: 175px; height: 41px; top: -45px; left: 910px;" />
+            <ui:Button text="保存" display-tooltip-when-elided="true" name="Yes" style="font-size: 19px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
